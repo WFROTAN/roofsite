@@ -11,12 +11,12 @@ import BlogRoll from '../components/BlogRoll'
 import "./sass/index-page.scss"
 
 // images
-import Roof from '../img/roof1.jpg'
+import Roof from '../img/roof1.webp'
 import Image1 from '../img/image1.jpg'
 import Image2 from '../img/image2.jpg'
 import Image3 from '../img/image3.jpg'
-import Add1 from '../img/add1.jpg'
-import Add2 from '../img/add2.jpg'
+import Add1 from '../img/add1.webp'
+import Add2 from '../img/add2.webp'
 
 export const IndexPageTemplate = ({
   image,
