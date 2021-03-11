@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
+/*
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-
-import logo from '../img/logo.png'
+*/
 
 import "./sass/index-page.scss"
 
@@ -69,7 +69,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-        <Link className="slide-btn" to="/blog">
+        <Link className="slide-btn" to="/contact">
           Contact Us
         </Link>
       </div>
@@ -84,7 +84,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">Our Services</h3>
                   <div className="services-content">
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image1}/></div>
+                      <div className="card-image"><img src={Image1} alt="Roof maintenance"/></div>
                       <div className="card-content">
                         <h3>Roof Maintenance</h3>
                         <div className="card-description">
@@ -93,7 +93,7 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image2}/></div>
+                      <div className="card-image"><img src={Image2} alt="Roof Inspection"/></div>
                       <div className="card-content">
                         <h3>Roof Inspection</h3>
                         <div className="card-description">
@@ -102,7 +102,7 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image3}/></div>
+                      <div className="card-image"><img src={Image3} alt="Insulation and Reparis"/></div>
                       <div className="card-content">
                         <h3>Insulation & Repairs</h3>
                         <div className="card-description">
@@ -133,7 +133,7 @@ export const IndexPageTemplate = ({
         <div className="add-info-content">
           <div className="add-row add-margin-bottom">
             <div className="add-row__image add-space-between">
-              <img src={Add1}/>
+              <img src={Add1} alt="Professional"/>
             </div>
             <div className="add-row__text">
               <h3>
@@ -143,13 +143,13 @@ export const IndexPageTemplate = ({
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco. Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
               <Link className="slide-btn" to="/blog">
-                Contact Us
+                Learn More
               </Link>
             </div>
           </div>
           <div className="add-row">
             <div className="add-row__image top-image">
-              <img src={Add2}/>
+              <img src={Add2} alt="Service"/>
             </div>
             <div className="add-row__text add-space-between">
               <h3>
@@ -159,11 +159,11 @@ export const IndexPageTemplate = ({
                 Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.Magna aliqa enim sed ipsum nisi ainy veniam quis nostrul aliqua enim lorem ipsum gui dolor sit amet tempor. Lorem ipsum dolor sit ametys consecteturadipisicing elit, sed eiusmod tempor incididunt ut labore dolore magna aliq sed ipsum ua dolor exercitation ullamco.
               </div>
               <Link className="slide-btn" to="/blog">
-                Contact Us
+                Learn More
               </Link>
             </div>
             <div className="add-row__image bottom-image">
-              <img src={Add2}/>
+              <img src={Add2} alt="Service"/>
             </div>
           </div>
         </div>

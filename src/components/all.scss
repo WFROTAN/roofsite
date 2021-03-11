@@ -20,6 +20,12 @@ $black: #2b2523;
     color: #d64000;
     font-weight: bold;
     font-size: 18px;
+
+    @media only screen and (max-width: 1023px) {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
   }
 }
 
