@@ -81,7 +81,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">Our Services</h3>
                   <div className="services-content">
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image1} alt="Roof maintenance"/></div>
+                      <div className="card-image"><img src={Image1} width="100%" height="100%"  alt="Roof maintenance"/></div>
                       <div className="card-content">
                         <h3>Roof Maintenance</h3>
                         <div className="card-description">
@@ -90,7 +90,7 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image2} alt="Roof Inspection"/></div>
+                      <div className="card-image"><img src={Image2} width="100%" height="100%"  alt="Roof Inspection"/></div>
                       <div className="card-content">
                         <h3>Roof Inspection</h3>
                         <div className="card-description">
@@ -99,7 +99,7 @@ export const IndexPageTemplate = ({
                       </div>
                     </div>
                     <div className="services-content__card">
-                      <div className="card-image"><img src={Image3} alt="Insulation and Reparis"/></div>
+                      <div className="card-image"><img src={Image3} width="100%" height="100%"  alt="Insulation and Reparis"/></div>
                       <div className="card-content">
                         <h3>Insulation & Repairs</h3>
                         <div className="card-description">
@@ -130,7 +130,7 @@ export const IndexPageTemplate = ({
         <div className="add-info-content">
           <div className="add-row add-margin-bottom">
             <div className="add-row__image add-space-between">
-              <img src={Add1} alt="Professional"/>
+              <img src={Add1} width="100%" height="100%" alt="Professional"/>
             </div>
             <div className="add-row__text">
               <h3>
@@ -146,7 +146,7 @@ export const IndexPageTemplate = ({
           </div>
           <div className="add-row">
             <div className="add-row__image top-image">
-              <img src={Add2} alt="Service"/>
+              <img src={Add2} width="100%" height="100%"  alt="Service"/>
             </div>
             <div className="add-row__text add-space-between">
               <h3>
@@ -160,7 +160,7 @@ export const IndexPageTemplate = ({
               </Link>
             </div>
             <div className="add-row__image bottom-image">
-              <img src={Add2} alt="Service"/>
+              <img src={Add2} width="100%" height="100%"  alt="Service"/>
             </div>
           </div>
         </div>
