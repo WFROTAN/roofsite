@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: COMPLETE ROOFING SOLUTIONS
-image: /img/home-jumbotron.jpg
+image: /img/roof1.webp
 heading: Great coffee with a conscience
 subheading: Professional exterior improvement services for your property.
 mainpitch:
